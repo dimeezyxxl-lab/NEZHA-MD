@@ -16,7 +16,7 @@ const readline       = require('readline');
 const chalk          = require('chalk');
 const commandLoader  = require('./utils/commandLoader');
 const config         = require('./config');
-const sessionManager = require('./lib/sessionManager');
+const sessionManager = require('./libs/sessionManager');
 
 console.log(chalk.red(`
 ╔════════════════════════════════════════════════════════════════╗
