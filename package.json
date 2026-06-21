@@ -1,0 +1,40 @@
+{
+  "name": "nezha-md",
+  "version": "1.0.0",
+  "description": "NEZHA MD by Xyz \u2014 The Lotus Prince WhatsApp bot, architected for multi-session deployment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "nezha",
+    "pairing",
+    "multi-session"
+  ],
+  "author": "Xyz",
+  "license": "MIT",
+  "dependencies": {
+    "@crysnovax/baileys": "^2.6.0",
+    "axios": "^1.7.9",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "fs-extra": "^11.2.0",
+    "moment": "^2.30.1",
+    "pino": "^9.6.0",
+    "play-dl": "^1.9.7",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.33.5",
+    "mumaker": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
